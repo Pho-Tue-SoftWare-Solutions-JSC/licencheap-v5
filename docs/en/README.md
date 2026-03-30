@@ -7,6 +7,7 @@
 - [`products.json`](products-json.md)
 - [Troubleshooting](troubleshooting.md)
 - [Security](security.md)
+- [License](license.md)
 - [Changelog](changelog.md)
 
 The `licensecheapv5` module is a provisioning module for HostBill, originally structured from:
