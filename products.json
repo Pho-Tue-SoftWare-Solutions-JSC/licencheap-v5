@@ -1,0 +1,191 @@
+{
+  "10": {
+    "name": "Cpanel",
+    "display_name": "cPanel",
+    "api_type": "Cpanel",
+    "installer_arg": "cPanel",
+    "command_alias": "CP",
+    "verify_command": "touch /etc/.verifylicense ; {{update_command}}",
+    "notes": [
+      "Softaculous, SitePad and FleetSSL licenses that come free with a cPanel license renew together with cPanel.",
+      "Changing cPanel IP may also update bundled Softaculous, SitePad and FleetSSL licenses."
+    ],
+    "extra_commands": [
+      {
+        "title": "Activate FleetSSL",
+        "command": "{{update_command}} -fleetssl"
+      }
+    ]
+  },
+  "11": {
+    "name": "CpanelDedicated",
+    "display_name": "cPanel Dedicated",
+    "api_type": "CpanelDedicated",
+    "installer_arg": "cPanel",
+    "command_alias": "CP"
+  },
+  "12": {
+    "name": "CloudLinux",
+    "display_name": "CloudLinux",
+    "api_type": "CloudLinux",
+    "installer_arg": "CloudLinux",
+    "command_alias": "CLN"
+  },
+  "13": {
+    "name": "LiteSpeed",
+    "display_name": "LiteSpeed",
+    "api_type": "LiteSpeed",
+    "installer_arg": "liteSpeed",
+    "command_alias": "LSWS"
+  },
+  "14": {
+    "name": "LiteSpeedAdc",
+    "display_name": "LiteSpeed ADC",
+    "api_type": "LiteSpeedAdc",
+    "installer_arg": "liteSpeed",
+    "command_alias": "LSWS"
+  },
+  "15": {
+    "name": "Cxs",
+    "display_name": "CXS",
+    "api_type": "Cxs",
+    "installer_arg": "CXS",
+    "command_alias": "CXS"
+  },
+  "16": {
+    "name": "WHMreseller",
+    "display_name": "WHMReseller",
+    "api_type": "WHMreseller",
+    "installer_arg": "WHMReseller",
+    "command_alias": "WHMReseller"
+  },
+  "17": {
+    "name": "JetBackup",
+    "display_name": "JetBackup",
+    "api_type": "JetBackup",
+    "installer_arg": "JetBackup",
+    "command_alias": "JetBackup"
+  },
+  "18": {
+    "name": "imunify360",
+    "display_name": "Imunify360",
+    "api_type": "imunify360",
+    "installer_arg": "Imunify360",
+    "command_alias": "Imunify360"
+  },
+  "19": {
+    "name": "PleskLinuxVPS",
+    "display_name": "Plesk VPS",
+    "api_type": "PleskLinuxVPS",
+    "installer_arg": "Plesk",
+    "command_alias": "Plesk"
+  },
+  "20": {
+    "name": "PleskLinuxDedicated",
+    "display_name": "Plesk Dedicated",
+    "api_type": "PleskLinuxDedicated",
+    "installer_arg": "Plesk",
+    "command_alias": "Plesk"
+  },
+  "21": {
+    "name": "directadmin",
+    "display_name": "DirectAdmin",
+    "api_type": "directadmin",
+    "installer_arg": "DirectAdmin",
+    "command_alias": "DA"
+  },
+  "22": {
+    "name": "dareseller",
+    "display_name": "DAReseller",
+    "api_type": "dareseller",
+    "installer_arg": "DAReseller",
+    "command_alias": "DAReseller"
+  },
+  "23": {
+    "name": "whmsonic",
+    "display_name": "WHMSonic",
+    "api_type": "whmsonic",
+    "installer_arg": "WHMSonic",
+    "command_alias": "WHMSonic"
+  },
+  "24": {
+    "name": "osm",
+    "display_name": "OSM",
+    "api_type": "osm",
+    "installer_arg": "OSM",
+    "command_alias": "OSM"
+  },
+  "25": {
+    "name": "softaculous",
+    "display_name": "Softaculous",
+    "api_type": "softaculous",
+    "installer_arg": "Softaculous",
+    "command_alias": "Softaculous"
+  },
+  "26": {
+    "name": "virtualizor",
+    "display_name": "Virtualizor",
+    "api_type": "virtualizor",
+    "installer_arg": "Virtualizor",
+    "command_alias": "Virtualizor"
+  },
+  "27": {
+    "name": "whmcs",
+    "display_name": "WHMCS",
+    "api_type": "whmcs",
+    "installer_arg": "WHMCS",
+    "command_alias": "WHMCS",
+    "notes": [
+      "If your provider instructs you to replace WHMCS License.php, update vendor/whmcs/whmcs-foundation/lib/License.php accordingly."
+    ]
+  },
+  "28": {
+    "name": "sitepad",
+    "display_name": "SitePad",
+    "api_type": "sitepad",
+    "installer_arg": "Sitepad",
+    "command_alias": "Sitepad"
+  },
+  "29": {
+    "name": "SYSCare",
+    "display_name": "SYSCare",
+    "api_type": "SYSCare",
+    "installer_arg": "SYSCare",
+    "command_alias": "SYSCare"
+  },
+  "30": {
+    "name": "CPGuard",
+    "display_name": "CPGuard",
+    "api_type": "CPGuard",
+    "installer_arg": "CPGuard",
+    "command_alias": "CPGuard"
+  },
+  "31": {
+    "name": "litespeed4core",
+    "display_name": "LiteSpeed 4 Core",
+    "api_type": "litespeed4core",
+    "installer_arg": "liteSpeed",
+    "command_alias": "LSWS"
+  },
+  "32": {
+    "name": "litespeed8core",
+    "display_name": "LiteSpeed 8 Core",
+    "api_type": "litespeed8core",
+    "installer_arg": "liteSpeed",
+    "command_alias": "LSWS"
+  },
+  "33": {
+    "name": "litespeedxcore",
+    "display_name": "LiteSpeed XCore",
+    "api_type": "litespeedxcore",
+    "installer_arg": "liteSpeed",
+    "command_alias": "LSWS"
+  },
+  "34": {
+    "name": "wp2",
+    "display_name": "WP Squared",
+    "api_type": "wp2",
+    "installer_arg": "wp2",
+    "command_alias": "WP"
+  }
+}
