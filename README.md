@@ -1,8 +1,12 @@
 # LicenseCheap v5 for HostBill
 
+License: see `LICENSE`.
+
 ## Tiếng Việt
 
 Module `licensecheapv5` là module provisioning License.Cheap / ResellerCenter cho HostBill.
+
+Giấy phép: xem `LICENSE`.
 
 **Tài liệu chi tiết**: xem `docs/vi/README.md`.
 
@@ -36,6 +40,8 @@ Module `licensecheapv5` là module provisioning License.Cheap / ResellerCenter c
 ## English
 
 `licensecheapv5` is a HostBill provisioning module for License.Cheap / ResellerCenter.
+
+License: see `LICENSE`.
 
 **Full documentation**: see `docs/en/README.md`.
 
